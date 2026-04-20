@@ -941,23 +941,3 @@ if __name__ == "__main__":
     main() # Launch the full game workflow: Login → Chatbot → Simulation → Performance Report
 
 
-from flask import Flask, render_template
-from flask_frozen import Freezer
-import sys
-
-app = Flask(__name__)
-
-# Your existing routes go here
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-# Initialize the Freezer
-freezer = Freezer(app)
-
-if __name__ == '__main__':
-    # Logic to decide: run server OR build static files
-    if len(sys.argv) > 1 and sys.argv[1] == "build":
-        freezer.freeze()
-    else:
-        app.run(debug=True)
