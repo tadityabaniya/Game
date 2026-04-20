@@ -3,7 +3,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-**Rapid Bridge Construction** is a high-stakes industrial simulation game built with Python. As a lead engineer, your mission is to rebuild a critical bridge on Nepal's Mahendra Highway that was destroyed by a massive flood. You must balance time, cost, and logistics to deliver the project with maximum efficiency.
+**Rapid Bridge Construction** is a industrial simulation game completely built by using Anti-Gravity in Python script. As a lead engineer, your mission is to manage resources to build a critical bridge with maximum efficiency. You must balance time, cost, and logistics to deliver the project with maximum efficiency.
 
 ---
 
